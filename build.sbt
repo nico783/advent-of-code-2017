@@ -1,5 +1,8 @@
-scalaVersion := "2.11.7"
+name := "advent-of-code"
 
-// libraryDependencies += "junit" % "junit" % "4.10" % Test
-// libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.4"
+version := "0.1"
+
+scalaVersion := "2.12.4"
+
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.4" % "test"
+        

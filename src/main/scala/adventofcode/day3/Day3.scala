@@ -6,13 +6,12 @@ object Day3 {
   val DISTANCE_MIN_FIRST_LOOP = 1
   val DISTANCE_MAX_FIRST_LOOP = 2
 
-
   /**
     * Give manathan distance between a point of the spiral (model by an integer >1) and the center of the spiral (1).
     * Note: particular case of manathanDistanceToSpiralCenter(1) == 0 is not treated.
     *
     * @param n
-    * @return
+    * @return distance between 1 (center) and n
     */
   def manathanDistanceToSpiralCenter(n: Int): Int = {
     def distance(i: Int, rho: Int, min: Int, max: Int, increase: Boolean): Int =
